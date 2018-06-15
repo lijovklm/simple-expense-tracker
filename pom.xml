@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Basic Expense Tracker</name>
+	<name>Simple Expense Tracker</name>
 	<description>Simple Expense Tracker Backend (Rest)</description>
 
     <!-- We may directly use simple-boot-parent-java and add all dependencies from simple-boot-parent-rest-jpa here. -->
