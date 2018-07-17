@@ -1,4 +1,4 @@
-package cloud.heartin.projects.simpleexpensetracker;
+package tech.heartin.projects.set;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

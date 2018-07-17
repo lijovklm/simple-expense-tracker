@@ -1,4 +1,4 @@
-package cloud.heartin.projects.simpleexpensetracker;
+package tech.heartin.projects.set;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
