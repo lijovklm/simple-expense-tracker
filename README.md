@@ -29,3 +29,10 @@ git clone https://github.com/heartin/simple-expense-tracker.git
 cd simple-expense-tracker
 './mvnw clean install' or 'mvn clean install'
 ```
+
+### Accessing H2 Console
+After running the Main class, H2 console can be accessed at: <br>
+http://localhost:8080/h2-console <br>
+Driver class: org.h2.Driver <br>
+JDBC URL: jdbc:h2:mem:testdb <br>
+User Name: sa
