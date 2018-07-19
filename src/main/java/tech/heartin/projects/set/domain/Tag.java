@@ -9,11 +9,13 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * Tag entity to tag any expense.
  */
 @Data
+@EqualsAndHashCode(exclude = {"expenses"})
 @Entity
 public class Tag {
     @Id

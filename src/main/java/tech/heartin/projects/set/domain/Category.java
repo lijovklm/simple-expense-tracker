@@ -9,11 +9,13 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * Category for an expense.
  */
 @Data
+@EqualsAndHashCode(exclude = {"expenses"})
 @Entity
 public class Category {
     @Id
