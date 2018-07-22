@@ -23,9 +23,17 @@ git clone https://github.com/heartin/simple-boot-parent-java.git
 cd ..
 ```
 
+Clone simple-boot-parent-rest-jpa:
+
+git clone https://github.com/heartin/simple-boot-parent-rest-jpa.git
+cd simple-boot-parent-rest-jpa
+'./mvnw clean install' or 'mvn clean install'
+cd ..
+```
+
 Clone simple-expense-tracker: <br>
 ```
-git clone https://github.com/heartin/simple-expense-tracker.git
+git clone https://github.com/lijovklm/simple-expense-tracker.git
 cd simple-expense-tracker
 './mvnw clean install' or 'mvn clean install'
 ```
