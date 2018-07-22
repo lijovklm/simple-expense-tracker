@@ -23,8 +23,8 @@ git clone https://github.com/heartin/simple-boot-parent-java.git
 cd ..
 ```
 
-Clone simple-boot-parent-rest-jpa:
-
+Clone simple-boot-parent-rest-jpa: <br>
+```
 git clone https://github.com/heartin/simple-boot-parent-rest-jpa.git
 cd simple-boot-parent-rest-jpa
 './mvnw clean install' or 'mvn clean install'
