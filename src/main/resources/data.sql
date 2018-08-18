@@ -41,3 +41,8 @@ insert into category(name) values('Entertainment_Other');
 
 -- Charity and Help
 insert into category(name) values('Charity');
+
+
+--Adding Category Groups
+
+insert into category_group(group_name) values('Food Related');

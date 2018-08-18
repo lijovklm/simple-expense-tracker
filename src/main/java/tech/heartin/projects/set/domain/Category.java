@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 import lombok.Data;
@@ -27,6 +28,8 @@ public class Category {
 
     @OneToMany(mappedBy = "category")
     private Set<Expense> expenses;
+    @ManyToOne
+    private CategoryGroup categoryGroup;
 
     //TODO: Add Categories to Group. Hint: Refer to category grouping in data.xml.
 }
